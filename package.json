@@ -1,9 +1,9 @@
 {
-  "name": "comp-lib",
-  "version": "1.0.0",
-  "description": "Created with CodeSandbox",
+  "name": "incredibleui",
+  "version": "1.0.1",
+  "description": "An Incredible UI Component Library",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "src/components/index.js",
   "dependencies": {
     "@storybook/addon-a11y": "^6.4.16",
     "@storybook/addon-backgrounds": "^6.4.16",
@@ -58,7 +58,7 @@
     "type": "git",
     "url": "git+https://github.com/Irfan-vit/incredible_UI.git"
   },
-  "author": "",
+  "author": "irfan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Irfan-vit/incredible_UI/issues"
