@@ -1,0 +1,37 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import {action} from "@storybook/addon-actions"
+import { PrimaryButton } from "./buttons";
+
+<Meta title="Incredcible_UI" component={PrimaryButton} />
+
+# Buttons
+
+Buttons are used to trigger actions within an application.
+
+## Usage
+
+Buttons are used to trigger internal actions within your web applications.
+
+## Primary Buttons
+
+Primary buttons are used as a call to action and indicate the most important action on a page.
+
+<Preview withToolbar>
+  <Story name="primary">
+    <PrimaryButton modifiers={["succes", "primaryButtonSuccess"]}>
+  Hello World
+  </PrimaryButton>
+  <PrimaryButton modifiers={["warning", "primaryButtonWarning"]}>
+  Hello World
+  </PrimaryButton>
+    <PrimaryButton modifiers={["error", "primaryButtonError"]}>
+  Hello World
+  </PrimaryButton>
+      <PrimaryButton>
+  Hello World
+  </PrimaryButton>
+        <PrimaryButton disabled>
+  Hello World
+  </PrimaryButton>
+  </Story>
+</Preview>
