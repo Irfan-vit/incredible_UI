@@ -125,33 +125,31 @@ const CardContainer = styled.div`
 `;
 
 export const Card = () => {
-  return (
-    <CardContainer modifiers={["small"]}>
-      <figure class="main">
-        <img
-          src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-          alt="Image of bubbles through a microscope."
-        />
-        <figcaption>
-          <h2>Nike Air Max</h2>
-          <p>Soft and Smooth.</p>
-        </figcaption>
-      </figure>
-      <div class="about">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, omnis qui
-          eius pariatur dolor expedita esse quasi laboriosam maxime, corporis
-          delectus. Voluptates numquam odio provident delectus excepturi
-          accusamus debitis cumque.
-        </p>
-      </div>
-      <div class="icons">
-        <strong>Buy Now</strong>
-        <strong>Add to Cart</strong>
-        <BsSuitHeartFill />
-        <FaShareAlt />
-        <FaEllipsisV />
-      </div>
-    </CardContainer>
-  );
+  <CardContainer modifiers={["small"]}>
+    <figure class="main">
+      <img
+        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alt="Image of bubbles through a microscope."
+      />
+      <figcaption>
+        <h2>Nike Air Max</h2>
+        <p>Soft and Smooth.</p>
+      </figcaption>
+    </figure>
+    <div class="about">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, omnis qui
+        eius pariatur dolor expedita esse quasi laboriosam maxime, corporis
+        delectus. Voluptates numquam odio provident delectus excepturi accusamus
+        debitis cumque.
+      </p>
+    </div>
+    <div class="icons">
+      <strong>Buy Now</strong>
+      <strong>Add to Cart</strong>
+      <BsSuitHeartFill />
+      <FaShareAlt />
+      <FaEllipsisV />
+    </div>
+  </CardContainer>
 };
